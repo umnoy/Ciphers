@@ -9,14 +9,16 @@ def analyse():
     3 - Brute force for recurrent affine cipher\n\
     4 - Key calculation for Hill cipher\n\
     5 - Key calculation for recurrent Hill cipher\n\
-    6 - Back\n\
+    6 - Index of Coincidence calculation\n\
+    7 - Back\n\
     ---> "))
             if analyse == 1: subprocess.run(["python", "analysis/freq_analysis.py"])
             if analyse == 2: subprocess.run(["python", "analysis/affine_bf.py"])
             if analyse == 3: subprocess.run(["python", "analysis/rec_affine_bf.py"])
             if analyse == 4: subprocess.run(["python", "analysis/hill_analyse.py"])
             if analyse == 5: subprocess.run(["python", "analysis/rec_hill_analyse.py"])
-            if analyse == 6: break
+            if analyse == 6: subprocess.run(["python", "analysis/IC_calc.py"])
+            if analyse == 7: break
             else: raise Exception
         except Exception:
              print("Please choose an option from the list!")
