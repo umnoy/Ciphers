@@ -8,6 +8,7 @@ This code provides:
 * Frequency analysis
 * Brute force for Affine and Recurrent Affine ciphers
 * Key calculation for Hill and Recurrent Affine ciphers
+* Index of Coincindence calculation for Vigenere cipher analisis
 
 #### Usage
 To start this program, you need to run *"main.py"* and then follow the instructions.
